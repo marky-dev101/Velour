@@ -1,0 +1,1039 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Velour Café | Menu</title>
+
+    <link rel="stylesheet" href="../styles/menu.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <a href="../../index.html">☕ Velour Café</a>
+            </div>
+
+            <nav class="header-nav">
+                <ul>
+                    <li>
+                        <a href="../../index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="menu.html" class="active">Menu</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="menu.html" class="header-btn">
+                            View Menu
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="menu-hero">
+        <div class="menu-hero-content">
+            <p class="menu-subtitle">
+                OUR MENU
+            </p>
+            <h1>
+                Crafted with <span>♥</span>
+            </h1>
+            <p>
+                From carefully brewed coffee to freshly baked pastries
+                and delicious cakes, every item at Velour Café is made
+                to make your day a little sweeter.
+            </p>
+        </div>
+    </section>
+
+    <main class="menu-section">
+        <div class="menu-intro">
+            <p>EXPLORE OUR SELECTION</p>
+            <h2>
+                Something for <em>every mood.</em>
+            </h2>
+        </div>
+
+        <section class="menu-category">
+            <button
+                class="category-button"
+                onclick="toggleMenu('coffee-menu', this)"
+            >
+
+                <div class="category-left">
+                    <span class="category-number">
+                        01
+                    </span>
+                    <div>
+                        <small>FRESHLY BREWED</small>
+
+                        <h2>
+                            ☕ Coffee
+                        </h2>
+                    </div>
+                </div>
+                <span class="category-arrow">
+                    +
+                </span>
+            </button>
+
+
+            <div class="menu-items" id="coffee-menu">
+                <div class="menu-grid">
+
+                    <!-- ESPRESSO -->
+
+                    <article class="menu-card">
+
+                        <div class="menu-image">
+
+                            <img
+                                src="../images/espresso.jpg"
+                                alt="Espresso"
+                            >
+
+                            <span class="menu-badge bestseller">
+                                BESTSELLER
+                            </span>
+
+                        </div>
+
+                        <div class="menu-card-content">
+
+                            <div class="menu-title">
+
+                                <h3>
+                                    Espresso
+                                </h3>
+
+                                <strong>
+                                    ₱120
+                                </strong>
+
+                            </div>
+
+                            <p>
+                                Strong, concentrated coffee with
+                                a rich flavor.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- CAPPUCCINO -->
+
+                    <article class="menu-card">
+
+                        <div class="menu-image">
+
+                            <img
+                                src="../images/cappucino.jpg"
+                                alt="Cappuccino"
+                            >
+
+                        </div>
+
+                        <div class="menu-card-content">
+
+                            <div class="menu-title">
+
+                                <h3>
+                                    Cappuccino
+                                </h3>
+
+                                <strong>
+                                    ₱145
+                                </strong>
+
+                            </div>
+
+                            <p>
+                                Espresso topped with steamed milk
+                                and milk foam.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- LATTE -->
+
+                    <article class="menu-card">
+
+                        <div class="menu-image">
+
+                            <img
+                                src="../images/latte.jpg"
+                                alt="Caffe Latte"
+                            >
+
+                            <span class="menu-badge">
+                                CLASSIC
+                            </span>
+
+                        </div>
+
+                        <div class="menu-card-content">
+
+                            <div class="menu-title">
+
+                                <h3>
+                                    Caffè Latte
+                                </h3>
+
+                                <strong>
+                                    ₱150
+                                </strong>
+
+                            </div>
+
+                            <p>
+                                Espresso with plenty of steamed milk
+                                and a light layer of foam.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- AMERICANO -->
+
+                    <article class="menu-card">
+
+                        <div class="menu-image">
+
+                            <img
+                                src="../images/americano.jpg"
+                                alt="Americano"
+                            >
+
+                        </div>
+
+                        <div class="menu-card-content">
+
+                            <div class="menu-title">
+
+                                <h3>
+                                    Americano
+                                </h3>
+
+                                <strong>
+                                    ₱130
+                                </strong>
+
+                            </div>
+
+                            <p>
+                                Espresso combined with hot water
+                                for a smooth, lighter coffee.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- MOCHA -->
+
+                    <article class="menu-card">
+
+                        <div class="menu-image">
+
+                            <img
+                                src="../images/mocha.jpg"
+                                alt="Mocha"
+                            >
+
+                            <span class="menu-badge">
+                                FAVORITE
+                            </span>
+
+                        </div>
+
+                        <div class="menu-card-content">
+
+                            <div class="menu-title">
+
+                                <h3>
+                                    Mocha
+                                </h3>
+
+                                <strong>
+                                    ₱160
+                                </strong>
+
+                            </div>
+
+                            <p>
+                                Espresso, chocolate, and steamed
+                                milk, usually topped with foam.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- CARAMEL MACCHIATO -->
+
+                    <article class="menu-card">
+
+                        <div class="menu-image">
+
+                            <img
+                                src="../images/caramel-macchiato.jpg"
+                                alt="Caramel Macchiato"
+                            >
+
+                        </div>
+
+                        <div class="menu-card-content">
+
+                            <div class="menu-title">
+
+                                <h3>
+                                    Caramel Macchiato
+                                </h3>
+
+                                <strong>
+                                    ₱165
+                                </strong>
+
+                            </div>
+
+                            <p>
+                                Espresso with steamed milk, vanilla,
+                                and caramel drizzle.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="menu-category">
+
+            <button
+                class="category-button"
+                onclick="toggleMenu('pastry-menu', this)"
+            >
+
+                <div class="category-left">
+
+                    <span class="category-number">
+                        02
+                    </span>
+
+                    <div>
+
+                        <small>
+                            FRESHLY BAKED
+                        </small>
+
+                        <h2>
+                            🥐 Pastries
+                        </h2>
+
+                    </div>
+
+                </div>
+
+                <span class="category-arrow">
+                    +
+                </span>
+
+            </button>
+
+
+            <div class="menu-items" id="pastry-menu">
+
+                <div class="menu-grid">
+
+
+                    <!-- CROISSANT -->
+
+                    <article class="menu-card">
+
+                        <div class="menu-image">
+
+                            <img
+                                src="../images/croissant.jpg"
+                                alt="Croissant"
+                            >
+
+                            <span class="menu-badge bestseller">
+                                BESTSELLER
+                            </span>
+
+                        </div>
+
+                        <div class="menu-card-content">
+
+                            <div class="menu-title">
+
+                                <h3>
+                                    Croissant
+                                </h3>
+
+                                <strong>
+                                    ₱50
+                                </strong>
+
+                            </div>
+
+                            <p>
+                                Buttery, flaky, and golden French
+                                pastry.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- CINNAMON ROLL -->
+
+                    <article class="menu-card">
+
+                        <div class="menu-image">
+
+                            <img
+                                src="../images/cinnamon-roll.jpg"
+                                alt="Cinnamon Roll"
+                            >
+
+                        </div>
+
+                        <div class="menu-card-content">
+
+                            <div class="menu-title">
+
+                                <h3>
+                                    Cinnamon Roll
+                                </h3>
+
+                                <strong>
+                                    ₱55
+                                </strong>
+
+                            </div>
+
+                            <p>
+                                Soft, sweet pastry filled with
+                                cinnamon and sugar.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- DANISH -->
+
+                    <article class="menu-card">
+
+                        <div class="menu-image">
+
+                            <img
+                                src="../images/danish.jpg"
+                                alt="Danish Pastry"
+                            >
+
+                        </div>
+
+                        <div class="menu-card-content">
+
+                            <div class="menu-title">
+
+                                <h3>
+                                    Danish Pastry
+                                </h3>
+
+                                <strong>
+                                    ₱58
+                                </strong>
+
+                            </div>
+
+                            <p>
+                                Flaky pastry filled with fruit,
+                                cream cheese, or custard.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PAIN AU CHOCOLAT -->
+
+                    <article class="menu-card">
+
+                        <div class="menu-image">
+
+                            <img
+                                src="../images/pain-au-chocolat.jpg"
+                                alt="Pain au Chocolat"
+                            >
+
+                        </div>
+
+                        <div class="menu-card-content">
+
+                            <div class="menu-title">
+
+                                <h3>
+                                    Pain au Chocolat
+                                </h3>
+
+                                <strong>
+                                    ₱50
+                                </strong>
+
+                            </div>
+
+                            <p>
+                                Flaky French pastry filled with
+                                delicious chocolate.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- ECLAIR -->
+
+                    <article class="menu-card">
+
+                        <div class="menu-image">
+
+                            <img
+                                src="../images/eclair.jpg"
+                                alt="Éclair"
+                            >
+
+                        </div>
+
+                        <div class="menu-card-content">
+
+                            <div class="menu-title">
+
+                                <h3>
+                                    Éclair
+                                </h3>
+
+                                <strong>
+                                    ₱140
+                                </strong>
+
+                            </div>
+
+                            <p>
+                                Choux pastry filled with cream and
+                                topped with chocolate.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- APPLE TURNOVER -->
+
+                    <article class="menu-card">
+
+                        <div class="menu-image">
+
+                            <img
+                                src="../images/apple-turnover.jpg"
+                                alt="Apple Turnover"
+                            >
+
+                        </div>
+
+                        <div class="menu-card-content">
+
+                            <div class="menu-title">
+
+                                <h3>
+                                    Apple Turnover
+                                </h3>
+
+                                <strong>
+                                    ₱125
+                                </strong>
+
+                            </div>
+
+                            <p>
+                                Flaky pastry filled with sweet,
+                                spiced apples.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="menu-category">
+
+            <button
+                class="category-button"
+                onclick="toggleMenu('cake-menu', this)"
+            >
+
+                <div class="category-left">
+
+                    <span class="category-number">
+                        03
+                    </span>
+
+                    <div>
+
+                        <small>
+                            SWEET INDULGENCES
+                        </small>
+
+                        <h2>
+                            🍰 Cakes
+                        </h2>
+
+                    </div>
+
+                </div>
+
+                <span class="category-arrow">
+                    +
+                </span>
+
+            </button>
+
+
+            <div class="menu-items" id="cake-menu">
+
+                <div class="menu-grid">
+
+
+                    <!-- CHOCOLATE CAKE -->
+
+                    <article class="menu-card">
+
+                        <div class="menu-image">
+
+                            <img
+                                src="../images/chocolate-cake.jpg"
+                                alt="Chocolate Cake"
+                            >
+
+                            <span class="menu-badge bestseller">
+                                BESTSELLER
+                            </span>
+
+                        </div>
+
+                        <div class="menu-card-content">
+
+                            <div class="menu-title">
+
+                                <h3>
+                                    Chocolate Cake
+                                </h3>
+
+                                <strong>
+                                    ₱180
+                                </strong>
+
+                            </div>
+
+                            <p>
+                                Rich and moist cake with delicious
+                                chocolate frosting.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- RED VELVET -->
+
+                    <article class="menu-card">
+
+                        <div class="menu-image">
+
+                            <img
+                                src="../images/red-velvet.jpg"
+                                alt="Red Velvet Cake"
+                            >
+
+                        </div>
+
+                        <div class="menu-card-content">
+
+                            <div class="menu-title">
+
+                                <h3>
+                                    Red Velvet Cake
+                                </h3>
+
+                                <strong>
+                                    ₱185
+                                </strong>
+
+                            </div>
+
+                            <p>
+                                Soft red cake traditionally paired
+                                with cream cheese frosting.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- CHEESECAKE -->
+
+                    <article class="menu-card">
+
+                        <div class="menu-image">
+
+                            <img
+                                src="../images/cheesecake.jpg"
+                                alt="Cheesecake"
+                            >
+
+                            <span class="menu-badge">
+                                FAVORITE
+                            </span>
+
+                        </div>
+
+                        <div class="menu-card-content">
+
+                            <div class="menu-title">
+
+                                <h3>
+                                    Cheesecake
+                                </h3>
+
+                                <strong>
+                                    ₱185
+                                </strong>
+
+                            </div>
+
+                            <p>
+                                Creamy dessert with a crumbly
+                                biscuit base.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- CARROT CAKE -->
+
+                    <article class="menu-card">
+
+                        <div class="menu-image">
+
+                            <img
+                                src="../images/carrot-cake.jpg"
+                                alt="Carrot Cake"
+                            >
+
+                        </div>
+
+                        <div class="menu-card-content">
+
+                            <div class="menu-title">
+
+                                <h3>
+                                    Carrot Cake
+                                </h3>
+
+                                <strong>
+                                    ₱175
+                                </strong>
+
+                            </div>
+
+                            <p>
+                                Spiced cake made with carrots and
+                                topped with cream cheese frosting.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- TIRAMISU -->
+
+                    <article class="menu-card">
+
+                        <div class="menu-image">
+
+                            <img
+                                src="../images/tiramisu.jpg"
+                                alt="Tiramisu"
+                            >
+
+                            <span class="menu-badge">
+                                ITALIAN CLASSIC
+                            </span>
+
+                        </div>
+
+                        <div class="menu-card-content">
+
+                            <div class="menu-title">
+
+                                <h3>
+                                    Tiramisu
+                                </h3>
+
+                                <strong>
+                                    ₱195
+                                </strong>
+
+                            </div>
+
+                            <p>
+                                Coffee-flavored Italian dessert
+                                layered with mascarpone and cocoa.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- STRAWBERRY SHORTCAKE -->
+                    <article class="menu-card">
+
+                        <div class="menu-image">
+
+                            <img
+                                src="../images/strawberry-shortcake.jpg"
+                                alt="Strawberry Shortcake"
+                            >
+
+                        </div>
+
+                        <div class="menu-card-content">
+
+                            <div class="menu-title">
+
+                                <h3>
+                                    Strawberry Shortcake
+                                </h3>
+
+                                <strong>
+                                    ₱190
+                                </strong>
+
+                            </div>
+
+                            <p>
+                                Light cake layered with strawberries
+                                and whipped cream.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+
+    <section class="menu-note">
+
+        <div class="menu-note-content">
+
+            <span>☕</span>
+
+            <h2>
+                Made for slow moments.
+            </h2>
+
+            <p>
+                Pair your favorite coffee with one of our freshly
+                baked pastries or cakes and make your café moment
+                a little more special.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+
+            <!-- BRAND -->
+
+            <div class="footer-brand">
+
+                <h2>
+                    ☕ Velour Café
+                </h2>
+
+                <p>
+                    A cozy space for good coffee, delicious
+                    pastries, and meaningful moments.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Explore
+                </h3>
+
+                <div class="footer-links">
+
+                    <a href="/index.html">
+                        Home
+                    </a>
+
+                    <a href="menu.html">
+                        Menu
+                    </a>
+
+                    <a href="./about.html">
+                        About
+                    </a>
+
+                    <a href="./contact.html">
+                        Contact
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="footer-hours">
+                <h3>
+                    Opening Hours
+                </h3>
+                <p>
+                    Monday – Friday
+                </p>
+                <p>
+                    8:00 AM – 9:00 PM
+                </p>
+                <br>
+                <p>
+                    Saturday – Sunday
+                </p>
+                <p>
+                    9:00 AM – 10:00 PM
+                </p>
+            </div>
+
+            <div class="footer-contact">
+                <h3>
+                    Visit Us
+                </h3>
+                <p>
+                    📍 Gabi, Cordova, Cebu
+                </p>
+                <p>
+                    📞 0912 345 6789
+                </p>
+                <p>
+                    ✉ hellovelourcafe@gmail.com
+                </p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>
+                © 2026 Velour Café. All rights reserved.
+            </p>
+            <p>
+                Crafted with care ☕
+            </p>
+        </div>
+    </footer>
+
+    <script>
+
+        function toggleMenu(menuId, button) {
+
+            const selectedMenu =
+                document.getElementById(menuId);
+
+            const allMenus =
+                document.querySelectorAll(".menu-items");
+
+            const allButtons =
+                document.querySelectorAll(".category-button");
+
+            allMenus.forEach(menu => {
+
+                if (menu !== selectedMenu) {
+
+                    menu.classList.remove("open");
+
+                }
+
+            });
+
+            allButtons.forEach(btn => {
+
+                if (btn !== button) {
+
+                    btn.classList.remove("active");
+
+                }
+
+            });
+
+            selectedMenu.classList.toggle("open");
+            button.classList.toggle("active");
+        }
+    </script>
+</body>
+</html>
